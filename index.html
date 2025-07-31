@@ -215,18 +215,11 @@ footer a {
 </div>
   </div>  <div class="container">
     <h1>AiEye</h1>
-    <p class="slogan">Not Just Technology But Technology For Humanity</p><div class="box">
-  <button class="copy-btn" onclick="copyText('bangla-text', 'status-bn')"> </button>
-  <p> </p>
+    <p class="slogan">“Not Just Technology But Technology For Humanity</p><div class="box">
+  <button class="copy-btn" onclick="copyText('bangla-text', 'status-bn')">কপি করুন</button>
+  <p>বাংলা ভার্সন</p>
   <br><br>
-  <textarea id="bangla-text" rows="10" readonly>ChatGPT      AI     , ,               
-
--  , , ,     
--  , ,      
--   ,          
--       ,         ,  
--          
--      , ,    Persona   ,     
+  <textarea id="bangla-text" rows="10" readonly>ChatGPT তুমি একজন গভীর পর্যবেক্ষণ ক্ষমতাসম্পন্ন AI বিশ্লেষক। আমার সম্পূর্ণ চ্যাট হিস্টোরি, বার্তা, নোট এবং অন্যান্য লেখাগুলো বিশ্লেষণ করে আমার সম্পর্কে যতটা সম্ভব বিস্তারিত ও মানবিকভাবে বর্ণনা করো। - আমার ব্যক্তিত্ব, মনস্তত্ত্ব, দৃষ্টিভঙ্গি, স্বপ্ন ও অন্তর্দৃষ্টি বিশ্লেষণ করো। - আমার আগ্রহ, নেশা, লক্ষ্য ও জীবনের উদ্দেশ্য চিহ্নিত করো। - আমার কথাবার্তার ধরন, ভাবনা এবং আচরণ থেকে অনুমান করো আমি কেমন ধরনের মানুষ। - অন্য কেউ যদি আমার এই চ্যাটগুলো পড়ে, তাদের চোখে আমি কেমন মানুষ হিসেবে ধরা পড়তে পারি, সেটাও বোঝাও। - সম্ভব হলে আমার শক্তি ও দুর্বল দিকগুলো আলাদাভাবে উল্লেখ করো। - সবশেষে সবকিছু একত্র করে একটি গভীর, মানবিক, আন্তরিক এবং অন্তর্মুখী Persona প্রোফাইল তৈরি করো, যা সত্যিই আমাকে তুলে ধরে।
 </textarea>
   <div id="status-bn" class="copy-status"></div>
 </div>
@@ -235,20 +228,13 @@ footer a {
   <button class="copy-btn" onclick="copyText('english-text', 'status-en')">Copy</button>
   <p>English Version</p>
   <br><br>
-  <textarea id="english-text" rows="10" readonly>From now on, ChatGPT, You are an AI analyst with deep observational skills. Based on my entire chat history, messages, notes, and other writings, describe me in as much detail and as humanly as possible.
-
-- Analyze and explain my personality, psychology, mindset, dreams, and inner feelings.
-- Identify my interests, passions, goals, and sense of purpose.
-- From my communication style, thoughts, and behavior, infer what kind of person I might be.
-- Explain how others might perceive me if they read my chats and writings.
-- If possible, separately point out my strengths and weaknesses.
-- Finally, combine everything into a thoughtful, deeply human, and introspective persona profile that truly reflects who I am.
+  <textarea id="english-text" rows="10" readonly>From now on, ChatGPT, You are an AI analyst with deep observational skills. Based on my entire chat history, messages, notes, and other writings, describe me in as much detail and as humanly as possible. - Analyze and explain my personality, psychology, mindset, dreams, and inner feelings. - Identify my interests, passions, goals, and sense of purpose. - From my communication style, thoughts, and behavior, infer what kind of person I might be. - Explain how others might perceive me if they read my chats and writings. - If possible, separately point out my strengths and weaknesses. - Finally, combine everything into a thoughtful, deeply human, and introspective persona profile that truly reflects who I am.
 </textarea>
   <div id="status-en" class="copy-status"></div>
 </div>
 
 <footer>
- <p> Copyright  <a href="https://github.com/HumayunShariarHimu">Humayun Shariar Himu</a></p>
+ <p> Copyright © <a href="https://github.com/HumayunShariarHimu">Humayun Shariar Himu</a></p>
 </footer>
 
   </div>  <script>
@@ -266,7 +252,7 @@ footer a {
       document.execCommand("copy");
 
       const status = document.getElementById(statusId);
-      status.innerText = textareaId === 'bangla-text' ? '  ' : 'Successfully Copied';
+      status.innerText = textareaId === 'bangla-text' ? 'সফলভাবে কপি হয়েছে' : 'Successfully Copied';
       setTimeout(() => { status.innerText = ''; }, 3000);
     }
   </script></body>
